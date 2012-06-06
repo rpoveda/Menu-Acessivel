@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Menu acessivel</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="menu.js"></script>
+	<style type="text/css">
+		ul{list-style:none;}
+		a{text-decoration:none; font-family:Georgia; color:#6C6C6C;}
+		.filho{display:none; border:1px solid #666; width:200px;}
+		.filho li:hover{background-color:orange;}
+	</style>
+</head>
+<body>
+<div id="menu">
+ <ul class="principal">
+   <li class="lipai"><a href="#">Home</a></li>
+   <li class="lipai"><a href="#">Eventos</a>
+   	<ul class="filho">
+   		<li><a href="#">Natal</a></li>
+   		<li><a href="#">Pascoa</a></li>		
+   	</ul>
+   </li>
+   <li class="lipai oi"><a href="#">Jogos</a>
+   		<ul class="filho">
+   			<li><a href="#">Palmeiras</a></li>
+   			<li><a href="#">Sao Bento</a></li>	
+   		</ul>
+   </li>
+ </ul>
+</div>
+</body>
+</html>
